@@ -1,0 +1,311 @@
+*{
+	margin:0;
+	padding:0
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.contant{
+	width:960px;
+	margin:0 auto;
+	color:#999999;
+	font-size:13px;
+	font-weight:normal;
+	overflow:hidden;
+	background:;
+}
+/*topbar*/
+.topbar{
+	background:#3c2520;
+	padding-bottom:20px;
+	padding-top:20px;
+	border-bottom:1px solid #957964;
+}
+.manu{
+	float:left;
+	line-height: 25px;
+}
+.manu li{
+	display:inline-block;
+	border-right:1px solid #999999;
+	padding-left:4px;
+	padding-right:4px;
+}
+.manu li:last-child{
+	border-right:none;
+	
+}
+.manu li a{
+	color:#999999;
+	font-size:13px;
+	
+} 
+.social{
+	float:right;
+}
+.social li{
+	display:inline-block;
+	height:33px;
+	width:33px;
+	border-radius:50%;
+	background:#957964;
+	line-height:30px;
+	margin-right:7px;
+}
+.social li a{
+	
+	color:white;
+	font-size: 18px;
+	padding-left: 10px;
+
+}
+.social li:hover{
+	background:#db4a39;
+}
+/*header*/
+.header{
+	padding-bottom:40px;
+	padding-top:40px;
+}
+.logo{
+	float:left;
+}
+.contact{
+	float:right;
+}
+.contact input{
+	width:215px;
+	padding-bottom:12px;
+	padding-top:12px;
+	padding-left:7px;
+	margin-left: -5px;
+}
+#serch{
+width: 66px;
+background: #3c2520;
+color: white;
+text-transform: uppercase;
+text-align: center;
+padding-left: 0px;
+border-radius:0px 10px 10px 0px;
+border: none;
+}
+/*navigation*/
+.nav{
+	background:#3c2520;
+	
+	width:100%
+}
+.nav li{
+	padding-top:26px;
+	padding-bottom:26px;
+	display:inline-block;
+	padding-left:21px;
+	padding-right:21px;
+	border-right:1px solid white;
+}
+.nav li:hover{
+	background:#957964;
+}
+.nav li:last-child{
+	border-right:none;
+}
+.nav li a{
+	color:white;
+	font-size:16px;
+	padding:0px;
+	text-transform:uppercase;
+}
+/*shout*/
+.txt{
+	text-align:center;
+	padding-bottom:50px;
+	padding-top:50px;
+	
+}
+.txt h1{
+	color:#957964;
+	font-weight:normal;
+	font-size:36px;
+	margin-bottom:23px;
+}
+
+/*intro*/
+.intro{ 
+	padding-bottom:53px;
+}
+.box_one{
+	height:450px;
+	width:558px;
+	float:left;
+	background:black;
+	padding:4px ;
+	border:1px solid red;
+}
+.box_one p{
+	text-align: center;
+	padding-top: 227px;
+	color: white;
+	font-size: 22px;
+}
+.box_two{
+	float:right;
+}
+.three p{
+	text-align: center;
+	padding-top: 67px;
+	color: white;
+	font-size: 22px;
+}
+.three{
+	height:152px;
+	margin-bottom:1.333px;
+	width:372px;
+	background:black;
+	
+}
+/*section*/
+.box{
+	width:480px;
+	float:left;
+padding-bottom:68px;	
+	
+}
+.row_three{
+	padding-top:34px;
+}
+
+.border1{
+	
+	width: 175px;
+	float: left;
+	border-top: 5px solid #ebebeb;
+	margin-top: 12px;
+}
+.one {
+	width:109px;
+	float:left;
+	padding-top:5px;
+}
+.one a{
+	font-size:11px;
+	color:#4a4a4a;
+	font-weight: normal;
+	padding: 6px;
+}
+.border2{
+
+	
+	float: left;
+	width: 175px;
+	border-top: 5px solid #ebebeb;
+	margin-top: 12px;
+	
+}
+.row_one{
+	width:480px;
+	overflow:hidden; 
+	
+	padding-top:33px;
+}
+
+.img{
+	height:128px;
+	width:128px;
+	border-radius:50%;
+	background:black;
+	float:left;
+	
+}
+.img p{
+	padding-top: 55px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+.text{
+width: 325px;
+float: right;
+margin-left: 25px;
+}
+.text p{
+	padding-top:20px; 
+	line-height:20px; 
+	 padding-right: 78px;
+
+}
+
+.text a{
+	color:#957964;
+}
+.po{
+	float:left;
+	width:225px;
+	border:1px solid green;
+	padding-top:33px;
+	margin-right:13px;
+	text-align:center;
+	
+}
+.po h2{
+	font-size:32px;
+	color:#333333;
+	padding-bottom:26px;
+}
+.po p{
+	padding-bottom:28px;
+	padding-left:28px;
+	padding-right:28px;
+}
+/*footer*/
+
+.footer_first{
+	background:#efefef;
+	border-top:5px solid #dddddd;
+	padding-bottom:28px;
+}
+.col{
+	float:left;
+	width:320px;
+}
+
+.col h3{
+	padding-top:25px;
+	padding-bottom:25px;
+	font-size:13px;
+	color:#666666;
+}
+.col a{
+	color:#957964;
+}
+.col ul{
+	padding-left:20px;
+	padding-right:20px;
+}
+#a{padding-left:20px;}
+
+.col ul li{
+	border-bottom:1px solid #dddddd;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+.col_one input{
+	width:302px;
+	padding-bottom:11px;
+	padding-top:11px;
+	background:#dddddd;
+	border:none;
+	padding-left:10px;
+	margin-top:8px;
+	border-radius:8px;
+}
+#b{
+	width:80px;
+	text-align:center;
+	padding-left:0;
+	color:white;
+	background:#957964;
+}
